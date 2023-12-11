@@ -13,8 +13,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Smart Mca",
-  description: "This is Home for Startup Nextjs Template",
-  // other metadata
+  description: "This a website to showcase things we gonna deliver",
 };
 
 export default function Home() {
@@ -25,7 +24,6 @@ export default function Home() {
       <Features />
       <Video />
       <Testimonials />
-
       <Blog />
       <Contact />
     </>

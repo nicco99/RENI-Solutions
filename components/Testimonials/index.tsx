@@ -14,11 +14,10 @@ const testimonialData: Testimonial[] = [
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
+    name: "Nicholas Njeru",
+    designation: "Software Engineer",
+    content: "I have full trust in Reni Solutions. Voters matter.",
+    image: "/images/testimonials/pic.jpeg ",
     star: 5,
   },
   {
@@ -34,11 +33,11 @@ const testimonialData: Testimonial[] = [
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="relative z-10 bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Our People Says"
+          paragraph="We value our community well, we are very interested with our people. Yours votes matter. Help us encourage youths by writting blogs"
           center
         />
 

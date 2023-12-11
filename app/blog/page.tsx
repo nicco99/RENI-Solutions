@@ -1,22 +1,37 @@
 import SingleBlog from "@/components/Blog/SingleBlog";
 import blogData from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-
+import pic from "public/pic.png";
+import Link from "next/link";
+import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Page for Startup Nextjs Template",
-  // other metadata
+  title: "Blog Page ",
+  description: "This is Blog Page for Reni Solutions",
 };
 
 const Blog = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Blog Grid"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Blog page"
+        description="Write a blog to support us, educate youths, bring a change, preach the message 'Voters matter'. Welcome all and blog with us. 📝🤝"
       />
+      <Image
+        className="lg:opacity-35 absolute left-0 top-40 z-[-1] opacity-30 "
+        height={250}
+        width={300}
+        src={pic}
+        alt="image"
+      />
+      <div>
+        <Link href="/blog/new">
+          <button className="ml-auto mr-3 mt-3 flex items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
+            Post a Blog +
+          </button>
+        </Link>
+      </div>
 
       <section className="pb-[120px] pt-[120px]">
         <div className="container">
