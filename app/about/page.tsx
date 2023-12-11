@@ -15,7 +15,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Reni Solutions is dedicated to bring change to the community. Founded on the principles of empowering youths, our initiative aims to bring youths together and embrace Voters matter."
       />
       <AboutSectionOne />
       <AboutSectionTwo />

@@ -30,8 +30,10 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Embracing unity is the cornerstone of progress. Let's stand
+                  together, bound by a shared vision and a collective spirit.
+                  Our strength lies in our togetherness, fostering a community
+                  where every voice is valued and heard.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -102,20 +104,13 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/blogs"
+                      href="/blog"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Blog
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="/pricing"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Pricing
-                    </a>
-                  </li>
+
                   <li>
                     <a
                       href="/about"
@@ -148,14 +143,6 @@ const Footer = () => {
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Privacy Policy
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Refund Policy
                     </a>
                   </li>
                 </ul>
@@ -200,7 +187,7 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Reni Solutions
+              Reni Solutions..
               <a href="https://nextjstemplates.com" rel="nofollow noopener">
                 Voters matter
               </a>
