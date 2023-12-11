@@ -12,7 +12,7 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Smart Mca",
+  title: "Reni Solutions",
   description: "This a website to showcase things we gonna deliver",
 };
 
