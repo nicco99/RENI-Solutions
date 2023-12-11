@@ -23,7 +23,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Embracing unity is the cornerstone of progress. Let's stand
+                  Embracing unity is the cornerstone of progress. Lets stand
                   together, bound by a shared vision and a collective spirit.
                   Our strength lies in our togetherness, fostering a community
                   where every voice is valued and heard.
